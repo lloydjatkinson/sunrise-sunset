@@ -1,12 +1,9 @@
 import { createStore } from 'vuex';
 
+import GeolocationModule from '../features/geolocation/store/module';
+
 export default createStore({
-    state: {
-    },
-    mutations: {
-    },
-    actions: {
-    },
     modules: {
+        GeolocationModule,
     },
 });

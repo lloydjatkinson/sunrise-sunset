@@ -25,7 +25,6 @@ module.exports = {
         'space-before-function-paren': ['error', 'always'],
         'no-unused-vars': 'off',
 
-        // Allow for..in and for..of that Airbnb discourages.
         'no-iterator': 'off',
         'no-restricted-syntax': ['error', 'ForInStatement'],
 
